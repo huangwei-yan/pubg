@@ -1,0 +1,524 @@
+//这个理不清请直接看css，本人都可能理不清
+
+.box {
+  width: 1300px;
+  margin: 0 auto;
+  //border: 1px solid red;
+}
+
+body {
+  // overflow: hidden;
+}
+
+header {
+  width: 1520px;
+  height: 70px;
+  background-color: #000;
+  box-sizing: border-box;
+
+  img {
+    float: left;
+    padding: 5px 30px;
+    height: 60px;
+    background-color: #252525;
+  }
+
+  .dao {
+    float: left;
+    text-align: right;
+    position: relative;
+
+    > li {
+      float: left;
+      color: #adadad;
+      font-size: 18px;
+      margin-left: 70px;
+      line-height: 70px;
+
+      > a:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.ying {
+  box-sizing: border-box;
+  width: 120px;
+  height: 197px;
+  background-color: #000;
+  display: none;
+  margin: 0 5px 10px 0;
+  position: absolute;
+  z-index: 1;
+
+  li:hover {
+    background-color: #adadad;
+    color: #000;
+  }
+}
+
+// .dao li:hover > .ying {
+//   display: display;
+// }
+.ying > li {
+  line-height: 35px;
+  color: #adadad;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 5px;
+
+  > a:hover {
+    color: #fff;
+  }
+}
+
+.dao1 {
+  float: right;
+  width: 150px;
+  height: 70px;
+  background-color: #F2A900;
+  text-align: center;
+  line-height: 70px;
+  position: relative;
+  z-index: 1;
+
+  h2 > a {
+    color: #fff;
+  }
+
+  .ying_1 {
+    display: none;
+    width: 190px;
+    height: 68px;
+    background-color: #000;
+    text-align: right;
+    margin-left: -40px;
+
+    li {
+      line-height: 35px;
+      font-size: 17px;
+      color: #adadad;
+      padding: 0 10px 0 0;
+
+    }
+
+    :hover {
+      background-color: #adadad;
+
+    }
+
+    :hover a {
+      color: #fff;
+    }
+  }
+}
+
+// .dao1:hover .ying_1{
+//       display: block;
+
+//
+//   }
+/*  页眉结束  */
+nav {
+  img {
+    width: 1520px;
+    height: 845px;
+  }
+}
+
+/* !-- 导航结束    */
+section {
+  width: 1520px;
+  height: 424px;
+  background: url(./img/wbg1.jpg)  -120px 0px;
+}
+/*-------   图片区域总div   ----------*/
+#lun {
+  width: 508px;
+  height: 236px;
+  overflow: hidden;
+  position: relative;
+  top: 90px;
+  left: 120px;
+  /*-----  底下仨点  -------*/
+
+  #ul {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 105px;
+
+    li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #fff;
+      float: left;
+      margin-left: 65px;
+    }
+  }
+
+  .ul {
+    background-color: #F2A900 !important;
+  }
+}
+
+#bo {
+  width: 1532px;
+  height: 236px;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s;
+  /*-------  三个图片块   -------*/
+
+  > img {
+    float: left;
+  }
+}
+
+/*-------  轮播图结束   -------*/
+.nav_1 {
+  float: right;
+  width: 647px;
+  height: 236px;
+  // border: 1px red solid;
+  margin-top: -153px;
+  margin-right: 50px;
+
+  ul > li {
+    font-size: 18px;
+    border-bottom: 1px #636363 dashed;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    > a {
+      color: #fff;
+    }
+
+    a:hover {
+      color: #F2A900;
+      // text-decoration: underline;
+
+    }
+
+    > span {
+      float: right;
+      color: #fff;
+      padding-right: 15px;
+    }
+  }
+}
+
+/* <!-- 导读部分结束 --> */
+/*新闻公告部分开始*/
+.main {
+  width: 1520px;
+  height: 800px;
+  background: url(./img/wrap_bg_2.jpg)  -120px 0px;
+  overflow: hidden;
+
+  .xing {
+    margin-top: 50px;
+
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      font-size: 17px;
+    }
+  }
+
+  .xing h1, p {
+    text-align: center;
+    color: #000;
+  }
+}
+
+.main_1 {
+  margin-top: 70px;
+
+  .img_1 {
+    margin: 0 30px 0 30px;
+    float: left;
+    width: 372px;
+    height: 386px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+
+    img {
+      width: 372px;
+
+    }
+
+    p {
+      line-height: 50px;
+      margin-top: 73px;
+      height: 50px;
+      font-size: 20px;
+      color: #fff;
+      background-color: #F2A900;
+    }
+  }
+
+}
+
+.deng {
+  background-color: #fff;
+
+  h1 {
+    padding: 30px 0 20px 20px;
+    color: #000;
+  }
+}
+
+.deng span {
+  color: #000;
+  font-size: 15px;
+  display: inline-block;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+/*鼠标触碰动画*/
+
+@keyframes ji {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes ji_1 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+@keyframes ji_2 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-105px);
+  }
+}
+
+/*鼠标移走动画*/
+@keyframes ji_3 {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ji_4 {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes ji_5 {
+  0% {
+    transform: translateY(-105px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* <!-- 鼠标移走动画结束 --> */
+/* <!-- 新闻公告部分结束 --> */
+/*视频中心页面开始*/
+.mang_2 {
+  position: relative;
+  width: 1520px;
+  height: 874px;
+  background: url(./img/video_bg1.jpg) -190px 0px;
+
+  h1 {
+    color: #fff;
+    font-size: 46px;
+    padding-top: 64px;
+    padding-left: 65px;
+
+    p {
+      color: #F2A900;
+      font-size: 16px;
+
+    }
+  }
+
+  h2 {
+    text-align: right;
+    padding-right: 250px;
+    color: #F2A900;
+    font-size: 30px;
+
+  }
+
+  span {
+    position: absolute;
+    top: 220px;
+    right: 380px;
+    font-size: 16px;
+    color: #74A9CE;
+  }
+
+  .shi_img {
+    width: 735px;
+    height: 415px;
+    margin: 15px 0 0 55px;
+
+    .fa-play-circle {
+      position: absolute;
+      top: 360px;
+      left: 435px;
+      width: 90px;
+      height: 90px;
+      background: url(./img/video_play.png) no-repeat;
+    }
+  }
+}
+
+.mang_2 .shi {
+  margin: 30px 0 0 330px;
+
+  i {
+    padding-right: 20px;
+  }
+
+  em {
+    background: url(./img/more_video.png);
+    color: #000;
+    font-size: 15px;
+    padding: 15px 30px 15px 30px;
+  }
+
+  .shi_img1, .shi_img2, .shi_img3 {
+    position: relative;
+
+    .fa-play-circle_1 {
+      position: absolute;
+      display: none;
+      top: -20px;
+      left: 94px;
+      z-index: 10;
+
+      p {
+        position: absolute;
+        font-size: 15px;
+        color: #FFFFFF;
+        left: -93px;
+        padding-top: 22px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+/*视频中心页面结束*/
+.wrapper {
+  > h1 {
+    line-height: 190px;
+    text-align: center;
+    background-color: black;
+    font-size: 50px;
+  }
+
+  #lun_1 {
+    position: relative;
+    width: 1520px;
+    height: 713px;
+    overflow: hidden;
+
+    #sang {
+      width: 90px;
+      height: 90px;
+      background-color: rgba(0, 0, 0, .5);
+      position: absolute;
+      top: 50%;
+      left: 30px;
+      border-radius: 50%;
+    }
+
+    #sang::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border: 1px solid white;
+      transform: rotate(45deg);
+      left: 40px;
+      top: 35px;
+      border-right: none;
+      border-top: none;
+    }
+
+    #xia {
+      width: 90px;
+      height: 90px;
+      background-color: rgba(0, 0, 0, .5);;
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      border-radius: 50%;
+    }
+
+    #xia::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border: 1px solid white;
+      transform: rotate(45deg);
+      left: 32px;
+      top: 38px;
+      border-left: none;
+      border-bottom: none;
+    }
+
+    #bo_1 {
+      position: absolute;
+      left: 0;
+      width: 4569px;
+      height: 713px;
+
+      > img {
+        float: left;
+        width: 1520px;
+        height: 713px;
+      }
+    }
+  }
+
+  #ul_1 {
+    overflow: hidden;
+    display: block;
+    width: 1520px;
+    background-color: black;
+    height: 110px;
+    padding-left: 45%;
+    box-sizing: border-box;
+    > li {
+      height: 20px;
+      float: left;
+      width: 20px;
+      margin-top: 40px;
+      margin-left: 30px;
+      background-color: #242424;
+    }
+  }
+}

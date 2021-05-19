@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e98aaea-46f2-46cb-8a3e-32c17ada3c31" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1sQsbBy8ce11Lis9FWxGkqaBASu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建临时文件" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e98aaea-46f2-46cb-8a3e-32c17ada3c31" name="默认更改列表" comment="" />
+      <created>1620816216922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620816216922</updated>
+      <workItem from="1620816218575" duration="372000" />
+      <workItem from="1620869169082" duration="200000" />
+      <workItem from="1620869384808" duration="794000" />
+      <workItem from="1620870205262" duration="413000" />
+      <workItem from="1620870722570" duration="775000" />
+      <workItem from="1620871522598" duration="2820000" />
+      <workItem from="1620874707833" duration="16488000" />
+      <workItem from="1620898106079" duration="138000" />
+      <workItem from="1620902013950" duration="271000" />
+      <workItem from="1620907556769" duration="1888000" />
+      <workItem from="1620953387417" duration="3529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620953636084">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1620953636084" />
+    <state x="372" y="193" key="EditFileWatcherDialog" timestamp="1620870389600">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="372" y="193" key="EditFileWatcherDialog/0.0.1536.834@0.0.1536.834" timestamp="1620870389600" />
+    <state width="252" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1620953979385">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="252" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.834@0.0.1536.834" timestamp="1620953979385" />
+    <state x="261" y="30" key="SettingsEditor" timestamp="1620954967967">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="261" y="30" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1620954967967" />
+    <state x="467" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1620953400279">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="467" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1620953400279" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1620953979390">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1620953979390" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1620887978930">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1620887978930" />
+  </component>
+</project>
